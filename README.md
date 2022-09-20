@@ -65,7 +65,7 @@ model.compile(loss="sparse_categorical_crossentropy",
               metrics=['accuracy'])
 ```
 
-# Requierments
+# Requirements
 Python 3.6+ is required. The following packages are required:
 
 - [Pandas](https://pandas.pydata.org/docs/)
