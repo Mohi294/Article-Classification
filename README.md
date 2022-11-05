@@ -11,7 +11,7 @@ The documentations of main packages are available in following links:
 
 #Getting Started
 One of the best RNNs is LSTM that can be used in a variety of cases, in this case we are using it for article classification which is a part of NLP tasks.
-Our first challenge was that the data was in word and pdf format and we needed to extract data from them and put it next to the labels that were assigned to them. For the sake of memory we decided to only extract abstracts from each article and since abstracts are in the beginning of each article, extracting the first 500 words would be beneficial for this case. Then we put extracted clean data into another column and now our main project will be started.
+Our first challenge was that the data was in word and pdf format and we needed to extract data from them and put it next to the labels that were assigned to them. For the sake of memory we decided to only extract abstracts from each article and since abstracts are in the beginning of each article, extracting the first 500 words would be beneficial for this case. Then we put extracted clean data into another column and now our main project will be started. With enough RAM this step can be skipped.
 
 ```python
 def txtCleaning(inputTXT):
